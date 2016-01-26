@@ -8,9 +8,9 @@
 define ("PREFIXE", "");
 
 //variables de connexion.
-$user = '';
+$user = 'root';
 $pass = '';
-$dsn = 'localhost';
+$dsn = 'mysql:host=localhost;dbname=tickets';
 
 
 //Connexion à la base de données.
